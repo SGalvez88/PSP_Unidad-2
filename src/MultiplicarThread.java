@@ -10,7 +10,10 @@ public class MultiplicarThread extends Thread {
     @Override
     public void run() {
         super.run();
-        System.out.println(numero+" X "+iterador+" = "+(numero * iterador));
+        for (int i = 0; i < 10; i++) {
+            System.out.println(numero *i+"X"+i);
+        }
+     
     }
     
 }
