@@ -8,7 +8,6 @@ public class programaABC {
             try {
                 Thread.sleep(100);
             } catch (InterruptedException e) {
-               
                 e.printStackTrace();
             }
         } while (hilo.isAlive());
